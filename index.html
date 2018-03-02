@@ -1,0 +1,49 @@
+<!--  Local -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+      <link rel="stylesheet"  href="css/myStyle.css">
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+  <body class = "body">
+    <h1 id = "header"><u>Sign Up Here</u></h1> <br>
+
+    <div class="formContainer" id="div2">
+      <section class="formSection">
+        <form method="post" id="form1">
+
+          <label>First Name</label>
+          <input type="text" name="FName" placeholder="Enter your First name" id="fName"/> <br>
+
+          <label>Last Name</label>
+          <input type="text" name="LName" placeholder="Enter your Last name" id="lName"/> <br>
+          
+          <label>Email</label> 
+          <input type="text" name="Email" placeholder="Enter your E-mail" id="email"/> <br>
+          
+          <label>Phone Number</label>
+          <input type="text" name="PhNum" placeholder="Enter your Phone no." id="Phone"/> <br>
+          
+          <label>Date Birthday</label> 
+          <input type="Date" name="BDay" placeholder="mm/dd/yyyy" id="bDay" pattern="mms/dd/yyyy" /> <br>
+
+          <select id = "select">
+            <option value = "">Select gender</option>
+            <option value = "male">Male</option>
+            <option value = "female">Female</option>
+            <option value = "other">Other</option>
+          </select>
+
+          <input type="submit" value="Submit" id="Bsubmit">
+
+        </form>
+      </section>
+    </div>
+
+  </body>
+</html>
